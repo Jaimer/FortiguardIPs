@@ -1,0 +1,229 @@
+config firewall address
+    edit "FortiguardIP1"
+        set type iprange
+        set start-ip 45.75.200.64
+        set end-ip 45.75.200.94
+    next
+    edit "FortiguardIP2"
+        set subnet 61.204.170.252 255.255.255.255
+    next
+    edit "FortiguardIP3"
+        set type iprange
+        set start-ip 62.209.40.64
+        set end-ip 62.209.40.78
+    next
+    edit "FortiguardIP4"
+        set type iprange
+        set start-ip 64.26.135.64
+        set end-ip 64.26.135.94
+    next
+    edit "FortiguardIP5"
+        set type iprange
+        set start-ip 64.26.151.32
+        set end-ip 64.26.151.62
+    next
+    edit "FortiguardIP6"
+        set type iprange
+        set start-ip 65.210.95.224
+        set end-ip 65.210.95.254
+    next
+    edit "FortiguardIP7"
+        set type iprange
+        set start-ip 65.210.95.224
+        set end-ip 65.210.95.254
+    next
+    edit "FortiguardIP8"
+        set type iprange
+        set start-ip 66.117.56.32
+        set end-ip 66.117.56.62
+    next
+    edit "FortiguardIP9"
+        set type iprange
+        set start-ip 69.195.205.64
+        set end-ip 69.195.205.78
+    next
+    edit "FortiguardIP10"
+        set type iprange
+        set start-ip 69.195.205.80
+        set end-ip 69.195.205.94
+    next
+    edit "FortiguardIP11"
+        set type iprange
+        set start-ip 69.195.205.96
+        set end-ip 69.195.205.110
+    next
+    edit "FortiguardIP12"
+        set type iprange
+        set start-ip 80.85.69.32
+        set end-ip 80.85.69.62
+    next
+    edit "FortiguardIP13"
+        set type iprange
+        set start-ip 96.45.32.0
+        set end-ip 96.45.32.254
+    next
+    edit "FortiguardIP14"
+        set type iprange
+        set start-ip 96.45.33.0
+        set end-ip 96.45.33.254
+    next
+    edit "FortiguardIP15"
+        set type iprange
+        set start-ip 111.108.191.64
+        set end-ip 111.108.191.94
+    next
+    edit "FortiguardIP16"
+        set type iprange
+        set start-ip 121.111.236.179
+        set end-ip 121.111.236.180
+    next
+    edit "FortiguardIP17"
+        set type iprange
+        set start-ip 173.243.138.0
+        set end-ip 173.243.138.254
+    next
+    edit "FortiguardIP18"
+        set type iprange
+        set start-ip 208.91.112.0
+        set end-ip 208.91.112.54
+    next
+    edit "FortiguardIP19"
+        set type iprange
+        set start-ip 208.91.112.56
+        set end-ip 208.91.112.254
+    next
+    edit "FortiguardIP20"
+        set subnet 208.91.113.75 255.255.255.255
+    next
+    edit "FortiguardIP21"
+        set type iprange
+        set start-ip 208.91.113.91
+        set end-ip 208.91.113.94
+    next
+    edit "FortiguardIP22"
+        set subnet 208.91.113.230 255.255.255.255
+    next
+    edit "FortiguardIP23"
+        set type iprange
+        set start-ip 209.222.136.0
+        set end-ip 209.222.136.30
+    next
+    edit "FortiguardIP24"
+        set type iprange
+        set start-ip 209.222.147.32
+        set end-ip 209.222.147.62
+    next
+    edit "FortiguardIP25"
+        set type iprange
+        set start-ip 45.75.200.64
+        set end-ip 45.75.200.94
+    next
+    edit "FortiguardIP26"
+        set subnet 61.204.170.252 255.255.255.255
+    next
+    edit "FortiguardIP27"
+        set type iprange
+        set start-ip 62.209.40.64
+        set end-ip 62.209.40.78
+    next
+    edit "FortiguardIP28"
+        set type iprange
+        set start-ip 64.26.135.64
+        set end-ip 64.26.135.94
+    next
+    edit "FortiguardIP29"
+        set type iprange
+        set start-ip 64.26.151.32
+        set end-ip 64.26.151.62
+    next
+    edit "FortiguardIP30"
+        set type iprange
+        set start-ip 65.210.95.224
+        set end-ip 65.210.95.254
+    next
+    edit "FortiguardIP31"
+        set type iprange
+        set start-ip 66.117.56.32
+        set end-ip 66.117.56.62
+    next
+    edit "FortiguardIP32"
+        set type iprange
+        set start-ip 69.195.205.64
+        set end-ip 69.195.205.78
+    next
+    edit "FortiguardIP33"
+        set type iprange
+        set start-ip 69.195.205.80
+        set end-ip 69.195.205.94
+    next
+    edit "FortiguardIP34"
+        set type iprange
+        set start-ip 69.195.205.96
+        set end-ip 69.195.205.110
+    next
+    edit "FortiguardIP35"
+        set type iprange
+        set start-ip 80.85.69.32
+        set end-ip 80.85.69.62
+    next
+    edit "FortiguardIP36"
+        set type iprange
+        set start-ip 96.45.32.0
+        set end-ip 96.45.32.254
+    next
+    edit "FortiguardIP37"
+        set type iprange
+        set start-ip 96.45.33.0
+        set end-ip 96.45.33.254
+    next
+    edit "FortiguardIP38"
+        set type iprange
+        set start-ip 111.108.191.64
+        set end-ip 111.108.191.94
+    next
+    edit "FortiguardIP39"
+        set type iprange
+        set start-ip 121.111.236.179
+        set end-ip 121.111.236.180
+    next
+    edit "FortiguardIP40"
+        set type iprange
+        set start-ip 173.243.138.0
+        set end-ip 173.243.138.254
+    next
+    edit "FortiguardIP41"
+        set type iprange
+        set start-ip 208.91.112.0
+        set end-ip 208.91.112.54
+    next
+    edit "FortiguardIP42"
+        set type iprange
+        set start-ip 208.91.112.56
+        set end-ip 208.91.112.254
+    next
+    edit "FortiguardIP43"
+        set subnet 208.91.113.75 255.255.255.255
+    next
+    edit "FortiguardIP44"
+        set type iprange
+        set start-ip 208.91.113.91
+        set end-ip 208.91.113.94
+    next
+    edit "FortiguardIP45"
+        set subnet 208.91.113.230 255.255.255.255
+    next
+    edit "FortiguardIP46"
+        set type iprange
+        set start-ip 209.222.136.0
+        set end-ip 209.222.136.30
+    next
+    edit "FortiguardIP47"
+        set type iprange
+        set start-ip 209.222.147.32
+        set end-ip 209.222.147.62
+    next
+end
+config firewall addrgrp
+    edit FortiguardGRP
+        set member "FortiguardIP1" "FortiguardIP2" "FortiguardIP3" "FortiguardIP4" "FortiguardIP5" "FortiguardIP6" "FortiguardIP7" "FortiguardIP8" "FortiguardIP9" "FortiguardIP10" "FortiguardIP11" "FortiguardIP12" "FortiguardIP13" "FortiguardIP14" "FortiguardIP15" "FortiguardIP16" "FortiguardIP17" "FortiguardIP18" "FortiguardIP19" "FortiguardIP20" "FortiguardIP21" "FortiguardIP22" "FortiguardIP23" "FortiguardIP24" "FortiguardIP25" "FortiguardIP26" "FortiguardIP27" "FortiguardIP28" "FortiguardIP29" "FortiguardIP30" "FortiguardIP31" "FortiguardIP32" "FortiguardIP33" "FortiguardIP34" "FortiguardIP35" "FortiguardIP36" "FortiguardIP37" "FortiguardIP38" "FortiguardIP39" "FortiguardIP40" "FortiguardIP41" "FortiguardIP42" "FortiguardIP43" "FortiguardIP44" "FortiguardIP45" "FortiguardIP46" "FortiguardIP47"
+end
